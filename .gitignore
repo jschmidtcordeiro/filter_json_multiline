@@ -2,5 +2,8 @@
 *.log
 
 # ignore ALL files in ANY directory named temp
-input_files/**
-output_files/**
+input_files/*
+output_files/*
+
+!input_files/.gitkeep
+!output_files/.gitkeep
