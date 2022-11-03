@@ -18,7 +18,7 @@ After running the code successfully you will have a .csv file in the output file
 
 ### Command example
 
-    python3 app.py input_files/example_input.txt output_files/example_output.csv
+    python3 app.py example_input.txt example_output.csv
 
 ### Input files syntax
     

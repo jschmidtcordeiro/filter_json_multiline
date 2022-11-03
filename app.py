@@ -3,8 +3,8 @@ from src.parse import Parse
 import json
 import pandas as pd
 
-input_path = sys.argv[1]
-output_path = sys.argv[2]
+input_path = "input_files/" + sys.argv[1]
+output_path = "output_files/" + sys.argv[2]
 
 # Open the input file passed as a command line argument
 with open(input_path) as f:
