@@ -10,7 +10,7 @@ In the root folder, first you add a file to input_files folder to be parsed. A e
 
 After added the input file run the app.
 
-    python3 app.py input_files/<file.txt> output_files/<file.csv>
+    python3 app.py <input_file.txt> <output_file.csv>
     
 After running the code successfully you will have a .csv file in the output files ready to be read in the Google Sheets or Excel
 
